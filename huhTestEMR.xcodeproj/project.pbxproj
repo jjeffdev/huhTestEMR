@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5C6A6F27A9D1CE00688FD6 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C6A6E27A9D1CE00688FD6 /* ThemeView.swift */; };
+		EAA5EB6427AB0DB600EE091A /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5EB6327AB0DB600EE091A /* ThemePicker.swift */; };
+		EAACE47F27B6F7C800EDFA12 /* PatientHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACE47E27B6F7C800EDFA12 /* PatientHeaderView.swift */; };
+		EAACE48127B85E7C00EDFA12 /* PatientProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACE48027B85E7C00EDFA12 /* PatientProgressViewStyle.swift */; };
+		EAACE48527B9673800EDFA12 /* PatientHandlerTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACE48427B9673800EDFA12 /* PatientHandlerTimer.swift */; };
+		EAACE48727BC9BD300EDFA12 /* PatientFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACE48627BC9BD300EDFA12 /* PatientFooterView.swift */; };
+		EAACE48927BDEEF900EDFA12 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACE48827BDEEF900EDFA12 /* AVPlayer+Ding.swift */; };
+		EAACE48C27BDEF5800EDFA12 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAACE48B27BDEF5800EDFA12 /* ding.wav */; };
+		EAACE49027C06E0C00EDFA12 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAACE48F27C06E0C00EDFA12 /* History.swift */; };
+		EAC34BF227D051430063C4BB /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC34BF127D051430063C4BB /* ErrorWrapper.swift */; };
+		EAC34BF427D0E40D0063C4BB /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC34BF327D0E40D0063C4BB /* ErrorView.swift */; };
+		EAC57D6827588CE20048923C /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC57D6727588CE20048923C /* PatientListView.swift */; };
+		EAC57D6C27601F6D0048923C /* PatientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC57D6B27601F6D0048923C /* PatientDetailView.swift */; };
+		EAC57D722764BBD80048923C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC57D712764BBD80048923C /* Theme.swift */; };
+		EAC57D742764C13C0048923C /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC57D732764C13C0048923C /* TrailingIconLabelStyle.swift */; };
+		EAE24FEC27939E4700D6AEA2 /* PatientDetailEditVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE24FEB27939E4700D6AEA2 /* PatientDetailEditVIew.swift */; };
+		EAF2E5FE27C5579300FA4D20 /* PatientStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2E5FD27C5579300FA4D20 /* PatientStore.swift */; };
+		EAF2E60027C8F06900FA4D20 /* Play Around.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2E5FF27C8F06900FA4D20 /* Play Around.swift */; };
+		EAF2E60227C92C8000FA4D20 /* Play Around View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF2E60127C92C8000FA4D20 /* Play Around View.swift */; };
+		EAF69DE7275402FA00078C08 /* huhTestEMRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF69DE6275402FA00078C08 /* huhTestEMRApp.swift */; };
+		EAF69DE9275402FA00078C08 /* PatientNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF69DE8275402FA00078C08 /* PatientNoteView.swift */; };
+		EAF69DEB275402FB00078C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF69DEA275402FB00078C08 /* Assets.xcassets */; };
+		EAF69DEE275402FB00078C08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF69DED275402FB00078C08 /* Preview Assets.xcassets */; };
+		EAF69DF82755954F00078C08 /* PatientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF69DF72755954F00078C08 /* PatientInfo.swift */; };
+		EAF69E032758162700078C08 /* PatientCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF69E022758162700078C08 /* PatientCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA5C6A6E27A9D1CE00688FD6 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		EAA5EB6327AB0DB600EE091A /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		EAACE47E27B6F7C800EDFA12 /* PatientHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHeaderView.swift; sourceTree = "<group>"; };
+		EAACE48027B85E7C00EDFA12 /* PatientProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PatientProgressViewStyle.swift; path = huhTestEMR/Model/PatientProgressViewStyle.swift; sourceTree = SOURCE_ROOT; };
+		EAACE48427B9673800EDFA12 /* PatientHandlerTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientHandlerTimer.swift; sourceTree = "<group>"; };
+		EAACE48627BC9BD300EDFA12 /* PatientFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientFooterView.swift; sourceTree = "<group>"; };
+		EAACE48827BDEEF900EDFA12 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		EAACE48B27BDEF5800EDFA12 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		EAACE48F27C06E0C00EDFA12 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		EAC34BF127D051430063C4BB /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		EAC34BF327D0E40D0063C4BB /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		EAC57D6727588CE20048923C /* PatientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListView.swift; sourceTree = "<group>"; };
+		EAC57D6B27601F6D0048923C /* PatientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailView.swift; sourceTree = "<group>"; };
+		EAC57D712764BBD80048923C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EAC57D732764C13C0048923C /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		EAE24FEB27939E4700D6AEA2 /* PatientDetailEditVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDetailEditVIew.swift; sourceTree = "<group>"; };
+		EAF2E5FD27C5579300FA4D20 /* PatientStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientStore.swift; sourceTree = "<group>"; };
+		EAF2E5FF27C8F06900FA4D20 /* Play Around.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Play Around.swift"; sourceTree = "<group>"; };
+		EAF2E60127C92C8000FA4D20 /* Play Around View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Play Around View.swift"; sourceTree = "<group>"; };
+		EAF69DE3275402FA00078C08 /* huhTestEMR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huhTestEMR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF69DE6275402FA00078C08 /* huhTestEMRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = huhTestEMRApp.swift; sourceTree = "<group>"; };
+		EAF69DE8275402FA00078C08 /* PatientNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientNoteView.swift; sourceTree = "<group>"; };
+		EAF69DEA275402FB00078C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF69DED275402FB00078C08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAF69DF72755954F00078C08 /* PatientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInfo.swift; sourceTree = "<group>"; };
+		EAF69E022758162700078C08 /* PatientCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCardView.swift; sourceTree = "<group>"; tabWidth = 4; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF69DE0275402FA00078C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAACE48A27BDEF5800EDFA12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAACE48B27BDEF5800EDFA12 /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EAF69DDA275402FA00078C08 = {
+			isa = PBXGroup;
+			children = (
+				EAF69DE5275402FA00078C08 /* huhTestEMR */,
+				EAF69DE4275402FA00078C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF69DE4275402FA00078C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF69DE3275402FA00078C08 /* huhTestEMR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF69DE5275402FA00078C08 /* huhTestEMR */ = {
+			isa = PBXGroup;
+			children = (
+				EAF69DE6275402FA00078C08 /* huhTestEMRApp.swift */,
+				EAF69DFA2755956300078C08 /* Model */,
+				EAF69E042758162F00078C08 /* View */,
+				EAACE48A27BDEF5800EDFA12 /* Resources */,
+				EAF69DEA275402FB00078C08 /* Assets.xcassets */,
+				EAF69DEC275402FB00078C08 /* Preview Content */,
+			);
+			path = huhTestEMR;
+			sourceTree = "<group>";
+		};
+		EAF69DEC275402FB00078C08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAF69DED275402FB00078C08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAF69DFA2755956300078C08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAF69DF72755954F00078C08 /* PatientInfo.swift */,
+				EAC57D712764BBD80048923C /* Theme.swift */,
+				EAA5EB6327AB0DB600EE091A /* ThemePicker.swift */,
+				EAACE48427B9673800EDFA12 /* PatientHandlerTimer.swift */,
+				EAACE48827BDEEF900EDFA12 /* AVPlayer+Ding.swift */,
+				EAACE48F27C06E0C00EDFA12 /* History.swift */,
+				EAF2E5FD27C5579300FA4D20 /* PatientStore.swift */,
+				EAC34BF127D051430063C4BB /* ErrorWrapper.swift */,
+				EAF2E5FF27C8F06900FA4D20 /* Play Around.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAF69E042758162F00078C08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAF69E022758162700078C08 /* PatientCardView.swift */,
+				EAF69DE8275402FA00078C08 /* PatientNoteView.swift */,
+				EAC57D732764C13C0048923C /* TrailingIconLabelStyle.swift */,
+				EAACE48027B85E7C00EDFA12 /* PatientProgressViewStyle.swift */,
+				EAACE47E27B6F7C800EDFA12 /* PatientHeaderView.swift */,
+				EAACE48627BC9BD300EDFA12 /* PatientFooterView.swift */,
+				EAC57D6727588CE20048923C /* PatientListView.swift */,
+				EAC57D6B27601F6D0048923C /* PatientDetailView.swift */,
+				EAE24FEB27939E4700D6AEA2 /* PatientDetailEditVIew.swift */,
+				EA5C6A6E27A9D1CE00688FD6 /* ThemeView.swift */,
+				EAC34BF327D0E40D0063C4BB /* ErrorView.swift */,
+				EAF2E60127C92C8000FA4D20 /* Play Around View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF69DE2275402FA00078C08 /* huhTestEMR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF69DF1275402FB00078C08 /* Build configuration list for PBXNativeTarget "huhTestEMR" */;
+			buildPhases = (
+				EAF69DDF275402FA00078C08 /* Sources */,
+				EAF69DE0275402FA00078C08 /* Frameworks */,
+				EAF69DE1275402FA00078C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huhTestEMR;
+			productName = huhTestEMR;
+			productReference = EAF69DE3275402FA00078C08 /* huhTestEMR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF69DDB275402FA00078C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EAF69DE2275402FA00078C08 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = EAF69DDE275402FA00078C08 /* Build configuration list for PBXProject "huhTestEMR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF69DDA275402FA00078C08;
+			productRefGroup = EAF69DE4275402FA00078C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF69DE2275402FA00078C08 /* huhTestEMR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF69DE1275402FA00078C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACE48C27BDEF5800EDFA12 /* ding.wav in Resources */,
+				EAF69DEE275402FB00078C08 /* Preview Assets.xcassets in Resources */,
+				EAF69DEB275402FB00078C08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF69DDF275402FA00078C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACE49027C06E0C00EDFA12 /* History.swift in Sources */,
+				EAF69DF82755954F00078C08 /* PatientInfo.swift in Sources */,
+				EAC57D6827588CE20048923C /* PatientListView.swift in Sources */,
+				EAACE48527B9673800EDFA12 /* PatientHandlerTimer.swift in Sources */,
+				EAF69E032758162700078C08 /* PatientCardView.swift in Sources */,
+				EAC57D742764C13C0048923C /* TrailingIconLabelStyle.swift in Sources */,
+				EAF69DE9275402FA00078C08 /* PatientNoteView.swift in Sources */,
+				EAACE48127B85E7C00EDFA12 /* PatientProgressViewStyle.swift in Sources */,
+				EAA5EB6427AB0DB600EE091A /* ThemePicker.swift in Sources */,
+				EAF2E5FE27C5579300FA4D20 /* PatientStore.swift in Sources */,
+				EAF69DE7275402FA00078C08 /* huhTestEMRApp.swift in Sources */,
+				EAACE47F27B6F7C800EDFA12 /* PatientHeaderView.swift in Sources */,
+				EAE24FEC27939E4700D6AEA2 /* PatientDetailEditVIew.swift in Sources */,
+				EAC57D6C27601F6D0048923C /* PatientDetailView.swift in Sources */,
+				EAF2E60227C92C8000FA4D20 /* Play Around View.swift in Sources */,
+				EAC34BF227D051430063C4BB /* ErrorWrapper.swift in Sources */,
+				EAACE48727BC9BD300EDFA12 /* PatientFooterView.swift in Sources */,
+				EA5C6A6F27A9D1CE00688FD6 /* ThemeView.swift in Sources */,
+				EAC57D722764BBD80048923C /* Theme.swift in Sources */,
+				EAF2E60027C8F06900FA4D20 /* Play Around.swift in Sources */,
+				EAACE48927BDEEF900EDFA12 /* AVPlayer+Ding.swift in Sources */,
+				EAC34BF427D0E40D0063C4BB /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAF69DEF275402FB00078C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAF69DF0275402FB00078C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF69DF2275402FB00078C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"huhTestEMR/Preview Content\"";
+				DEVELOPMENT_TEAM = ALQJ936CAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjeff.huhTestEMR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAF69DF3275402FB00078C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"huhTestEMR/Preview Content\"";
+				DEVELOPMENT_TEAM = ALQJ936CAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjeff.huhTestEMR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF69DDE275402FA00078C08 /* Build configuration list for PBXProject "huhTestEMR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF69DEF275402FB00078C08 /* Debug */,
+				EAF69DF0275402FB00078C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF69DF1275402FB00078C08 /* Build configuration list for PBXNativeTarget "huhTestEMR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF69DF2275402FB00078C08 /* Debug */,
+				EAF69DF3275402FB00078C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF69DDB275402FA00078C08 /* Project object */;
+}
